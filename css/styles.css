@@ -1,0 +1,148 @@
+ body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+} 
+h1{
+    font-size: 5.625em; /* 16px = 1em in css and 100% = 16px, so if you want to change the font size simply divide by 16 eg: as we do in the above case to reach the 90px font size. */
+margin-top: 0;
+width: 40%;
+margin: 50px auto 0 auto;
+font-family: 'Sacramento', cursive;
+color: #66BFBF;
+line-height: 2;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
+    font-size: 2.5rem; /* rem is more valuable than em because in this there is not any affect of parent font-sizing */
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    
+}
+.contact{
+    width: 30%;
+    margin: 30px auto 40px auto;
+}
+.top-container{
+    background-color: aquamarine;
+     position: relative;
+     padding-top: 100px;
+    
+}
+.middle-container{
+    margin: 100px 0px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    
+}
+.top-cloud{
+    /* background-color: black; */
+    position: relative;
+   margin-left: 400px;
+   margin-top: 0px;
+   
+}
+.bottom-cloud{
+    position:absolute;
+    margin-left: 100px;
+    margin-bottom: 300px;
+}
+.profil{  
+    height: 200px;
+    width: 200px; 
+    /* float: left; */
+}
+.cricket{
+    height : 200px;
+    width : 200px;
+    float: right; 
+    margin-left: 30px;
+    /* float is used to set the image left right top bottom of the text this is very useful feature of the css to make your web page good looking  */
+}
+hr{
+    width: 10%;
+    border-top: 4px dotted black;
+    margin: auto;
+}
+.bottom-container{
+background-color:#66BFBF ;
+padding: 50px 0px 20px;
+/* read about padding from w3school.com for more information.  */
+}
+.web{
+    /* height : 200px; */
+    width : 25%;
+    float: left;
+    margin-right: 30px;
+}
+span{
+    text-decoration: underline;
+}
+a{
+    color: #11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+color: #efefef;
+}
+/* .button{
+    background-color: #30e3cb;
+    border-radius: 8px;
+}
+.button:hover{
+    background-color: #2bc4ad; 
+} */
+.intro{
+    width: 30%;
+    margin: auto;
+    line-height: 2;
+}
+p{
+    line-height: 2;
+}
+/* .skilll{
+   clear: left;
+}
+.skill{
+    clear:right 
+}   clear is used to clear the sides of the text and the image to give it a blank sides.... */
+.button {
+    background: #34d9bb;
+    background-image: -webkit-linear-gradient(top, #34d9bb, #2bb897);
+    background-image: -moz-linear-gradient(top, #34d9bb, #2bb897);
+    background-image: -ms-linear-gradient(top, #34d9bb, #2bb897);
+    background-image: -o-linear-gradient(top, #34d9bb, #2bb897);
+    background-image: linear-gradient(to bottom, #34d9bb, #2bb897);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    padding: auto;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background: #05ff9f;
+    background-image: -webkit-linear-gradient(top, #05ff9f, #3f9682);
+    background-image: -moz-linear-gradient(top, #05ff9f, #3f9682);
+    background-image: -ms-linear-gradient(top, #05ff9f, #3f9682);
+    background-image: -o-linear-gradient(top, #05ff9f, #3f9682);
+    background-image: linear-gradient(to bottom, #05ff9f, #3f9682);
+    text-decoration: none;
+  }
+  .copyright{
+    color:#efefef;
+    padding:20px 0px;
+    font-size: 0.75rem;
+  }
